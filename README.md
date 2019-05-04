@@ -1,12 +1,25 @@
-# Intent
-这是实验五
+
 **一、 实验内容：**
+
+
         本实验通过自定义WebView加载URL来验证隐式Intent 的使用。
+        
+        
         实验包含两个应用：
+        
+        
           第一个应用：获取URL地址并启动隐式Intent的调用。
+         
+         
           第二个应用：自定义WebView来加载URL
+
+
          （这个是第一个应用）
+         
+         
 **二、主要代码：**
+
+
 ```
 package com.example.lenovo.androidtest5;
 
@@ -67,28 +80,18 @@ public class MainActivity extends AppCompatActivity {
     <category android:name="android.intent.category.DEFAULT" />
 </intent-filter>
 ```
+
 **三、实验结果截图：**
+
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190504131350147.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzkwMTY5OA==,size_16,color_FFFFFF,t_70)
 
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190504131416997.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzkwMTY5OA==,size_16,color_FFFFFF,t_70)
 
+
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190504131439196.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzkwMTY5OA==,size_16,color_FFFFFF,t_70)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
